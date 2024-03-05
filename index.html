@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Find meals For Your Ingredients</h1>
+    <div class="introduction-quote">
+      Real food doesn't have ingredients, real food is ingredients
+    </div>
+    <div class="author">Jamie Oliver</div>
+    <form class="searchForm">
+      <input
+        type="text"
+        placeholder="Search for"
+        class="search-bar"
+        id="searchInput"
+      />
+      <button type="submit" class="submit-button" id="submitButton">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+    </form>
+    <div class="result"></div>
+    <div class="resultsList" id="results"></div>
+    <script src="./main.js" async defer></script>
+  </body>
+</html>
